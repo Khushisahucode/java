@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-class F{
+class Switchcase{
     public static void main(String[]args){
    Scanner sc =new Scanner(System.in);
    System.out.print("enter the value of a :");

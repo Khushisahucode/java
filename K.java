@@ -5,7 +5,7 @@ public class K {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter number to cheack = ");
         int x= sc.nextInt();
-        K b1=new k();
+        K b1=new K();
         b1.cheackprime(x);
         sc.close();
     }
