@@ -1,0 +1,25 @@
+public class P {
+    public static void main(String[] args) {
+        String [] arr;
+        arr= { "khushi","madhu","riya","mukku","aaddi","rishabh","hariom","ishika"};
+        
+        System.out.println(" array length is : "+arr.length);
+        System.out.println("array elements are : ");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+   
+    }
+}
+/*
+ * P.java:4: error: illegal start of expression
+        arr= { "khushi","madhu","riya","mukku","aaddi","rishabh","hariom","ishika"};
+             ^
+P.java:4: error: not a statement
+        arr= { "khushi","madhu","riya","mukku","aaddi","rishabh","hariom","ishika"};
+               ^
+P.java:4: error: ';' expected
+        arr= { "khushi","madhu","riya","mukku","aaddi","rishabh","hariom","ishika"};
+                       ^
+3 errors
+ */
