@@ -1,0 +1,7 @@
+
+abstract class S {
+
+    S() {
+
+    }
+}
